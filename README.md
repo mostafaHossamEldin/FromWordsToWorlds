@@ -21,8 +21,6 @@ Select the downloaded project folder
 
 3. **Open the Unity Project**:
 Open the project from Unity Hub, it will take sometime
-from inside Unity, through the asset manager go to Assets -> scenes
-open the "SecondScene.unity" scene
 
 ## Usage
 #### Opening Main file:
