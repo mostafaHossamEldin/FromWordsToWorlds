@@ -1,10 +1,17 @@
-In a "{Place}", given each of its zones with their size in square meters, and given each ones adjacent zones, respond with the most appropriate connection type between each zone and its adjacent zone, it should match a realistic layout, the main factors for your selections are the whole area context, zones functionallity, accessibility, and sizes. The Connection types are Wall, Door, or Open. Note that each zone SHOULD be accessable through at least one of its connections, and all zones have to be connected together leaving no cluster of zones unaccessable, and do NOT repeat the same connection between a pair twice.
+so ok imagine a "{Place}" or something and it's got like these zones, and each of them has a size (in meters squared? math stuff), and they're all kinda touching or near each other, or not, but yeah they have like neighbors.
 
-Here are the Zones in the {Place} and their neighbors: {Data}
+what i need is to figure out what kinda thing connects each of the zones to the others around them, like should there be a wall? or maybe like a door, or just nothing? open space? idk. pick one for each pair, but not like twice. like don’t say “A & B” and then again say “B & A” – we get it, it’s the same thing.
 
-Respond only in a json format with no text before or after, like the following:
+please base the connection thingies on stuff like... the whole vibe of the area, what the zones even do, if people should get in or not, and how big they are or something. also make sure no zone is stuck or lonely with no path, cuz they all need to be reachable by people or things or robots or whatever. every zone should have at least one way in. and like i said before (but just saying it again for no reason), don’t do duplicates.
+
+here’s the stuff you need:
+{Data}
+
+and uhh respond ONLY with the format like this (no hellos or extra stuff or i’ll get confused lol):
+
 {
-	"Zone A&Zone B": "Wall",
-	"Zone A&Zone B": "Open",
-	"Zone A&Zone B": "Door"
+	"Zone X&Zone Y": "Door",
+	"Zone Y&Zone Z": "Wall",
+	"Zone A&Zone C": "Open"
 }
+no fluff, just the thing.

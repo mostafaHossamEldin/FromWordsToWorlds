@@ -1,0 +1,57 @@
+fileFormatVersion: 2
+guid: 0516685bbcd30a9499ffdb6b8ad3300a
+labels:
+- author:horizonarchgrad
+- license:CC Attribution
+- "name:UNIT 3_MertcanG\xFCldilek"
+- size:(930211.6,6045.608,86031.55)
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 804e1ce4c496647cfa3f1a1134187c71, type: 3}
+  _removeEmptyRootObjects: 1
+  _scaleFactor: 1
+  _deduplicateResources: 0
+  _maximumLod: 300
+  _readWriteEnabled: 1
+  _generateColliders: 0
+  _swapUvs: 0
+  _generateLightmapUVs: 0
+  _importBlendShapeNames: 1
+  _blendShapeFrameWeight:
+    _option: 0
+    _multiplier: 1
+  _importNormals: 0
+  _importTangents: 0
+  _importCamera: 2
+  _importAnimations: 2
+  _mecanimHumanoidFlip: 0
+  _addAnimatorComponent: 0
+  _animationLoopTime: 1
+  _animationLoopPose: 0
+  _importMaterials: 1
+  _enableGpuInstancing: 0
+  _texturesReadWriteEnabled: 1
+  _generateMipMaps: 1
+  _useSceneNameIdentifier: 1
+  _textureCompression: -50
+  _gltfAsset: "<b>Generator: </b>Sketchfab-13.46.0\r\n<b>Version: </b>2.0\r\n\r\n<b>Extras:
+    </b>\r\n\"author\": \"Horizon Arch Grad (https://sketchfab.com/horizonarchgrad)\"\r\n\"license\":
+    \"CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)\"\r\n\"source\": \"https://sketchfab.com/3d-models/unit-3-mertcanguldilek-95a3b87a900748f8b126dbf56e8e9a01\"\r\n\"title\":
+    \"UNIT 3_MertcanG\xFCldilek\"\r\n"
+  optimizeGameObjects: 0
+  materials: []
+  textures: []
+  hasSceneData: 1
+  hasAnimationData: 0
+  hasMaterialData: 1
+  hasTextureData: 0
+  animations: []
+  _extensions: []
+  _textures: []
+  _mainAssetIdentifier: scenes/Sketchfab_Scene
+  _importPlugins: []

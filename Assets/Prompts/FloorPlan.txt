@@ -1,98 +1,29 @@
-For this context "{Place}", give me its subareas NAMES (and each ones subareas) that form it up in a json format. Give the result in a tree form, without mentioning very specific objects, just the zones names. Give the size of each leaf zone of the tree in square meters, and give the wall height in meters for each leaf, and give the position of each subzone relevant to its zone weather it is "right", "left", "up", "down", or "center". And for each leaf give its objects extended name that could build it up (that can be placed on the floor), the name has to be very descriptive and just one long phrase starting with the object name, the object name must not be in plural, and give the reference dimensions for each object in meters as [width, height, length]. And for each leaf give the walls texture (if closed), and the floor texture.
+yo so for this one thing called "{Place}" or whatever, can u tell me what stuff it's made of but like just the names of the parts and then the names of the parts inside those parts (like zones inside of more zones, you know what i mean?), but don’t say like anything super detailed like objects or whatnot, just give names for the places and only mention the little parts (like the final bottom zones) when you need to put numbers and measurements and stuff.
 
-Example Output:
+also make sure each small zone (leafs? leefs? the bottom ones) says how big it is like in square meters. and say how tall the walls are (only if they have walls tho), and where they are inside their parent part like “left” or “up” or “middle or center or whatever” – but only use right, left, up, down, or center or things will get weird.
+
+for those bottom leaf ones give some objects (not a lot just the ones u would put on the floor if u were gonna build the zone from scratch) and name them with long names like “wooden table with drawer from school” and start with the object name and never make them plural. then tell me the sizes of each object in meters like [w, h, l] (like width and tallness and deepness). also for the tiny zones say if the floor is like stone or dirt or tile or whatever, and if there’s walls, what texture they are (like brick or goo idk).
+
+make sure the output looks like this because JSON is picky lol:
+
 {
-  "Zone Name": {
-    "Subzone Group 1": {
-      "Subzone A": {
-        "translatedName": "Translated subzone name",
-        "size": 20,
-        "type": "open",
+  "Some Big Zone": {
+    "Group Thing 1": {
+      "Tiny Area 1": {
+        "translatedName": "in their language probably",
+        "size": 10,
+        "type": "closed or open???",
         "side": "left",
-        "height": 5,
-        "floor": "concrete",
+        "height": 3,
+        "walls": "smooth marble i guess",
+        "floor": "fake grass",
         "objects": {
-          "object 1": [1, 2, 3],
-          "object 2": [4, 5, 6],
-          "object 3": [7, 8, 9],
-          "object 4": [10, 11, 12]
-        }
-      },
-      "Subzone B": {
-        "languageName": "Translated subzone name",
-        "size": 15,
-        "type": "closed",
-        "side": "right",
-        "height": 5,
-        "walls": "marple",
-        "floor": "rock",
-        "objects": {
-          "object 1": [1, 1, 1],
-          "object 2": [2, 2, 2],
-          "object 3": [3, 3, 3]
+          "desk": [1, 2, 3],
+          "another thing": [3, 4, 5]
         }
       },
       "side": "center"
-    },
-    "Subzone Group 2": {
-      "Subzone C": {
-        "languageName": "Translated subzone name",
-        "size": 30,
-        "type": "open",
-        "side": "up",
-        "height": 6,
-        "walls": "paving stones",
-        "objects": {
-          "object 1": [5, 5, 5],
-          "object 2": [6, 6, 6],
-          "object 3": [7, 7, 7]
-        }
-      },
-      "Subzone D": {
-        "languageName": "Translated subzone name",
-        "size": 50,
-        "type": "closed",
-        "side": "down",
-        "height": 6,
-        "walls": "bricks",
-        "floor": "asphalt",
-        "objects": {
-          "object 1": [8, 8, 8],
-          "object 2": [9, 9, 9],
-          "object 3": [10, 10, 10]
-        }
-      },
-      "Subzone E": {
-        "languageName": "Translated subzone name",
-        "size": 40,
-        "type": "open",
-        "side": "left",
-        "height": 6,
-        "floor": "asphalt",
-        "objects": {
-          "object 1": [11, 11, 11],
-          "object 2": [12, 12, 12],
-          "object 3": [13, 13, 13]
-        }
-      },
-      "side": "right"
-    },
-    "Subzone Group 3": {
-      "Subzone F": {
-        "languageName": "Translated subzone name",
-        "size": 25,
-        "type": "closed",
-        "side": "down",
-        "height": 4,
-        "walls": "bricks",
-        "floor": "asphalt",
-        "objects": {
-          "object 1": [14, 14, 14],
-          "object 2": [15, 15, 15],
-          "object 3": [16, 16, 16]
-        }
-      },
-      "side": "up"
     }
   }
 }
+put the real stuff in where needed but keep the format like that or the parser will cry. ok thanks.

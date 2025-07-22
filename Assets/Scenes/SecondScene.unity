@@ -391,8 +391,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   playerCamera: {fileID: 0}
-  geminiAPIKey: 
-  sketchFabToken: 
+  geminiAPIKey: AIzaSyAWf7ZrTu0Wcgu2uMu3oWzw6fJMAjWR4wQ
+  sketchFabToken: 3b361a3180c844fc86e4e49af6bf2655
   mainPlatform: {fileID: 735935690}
 --- !u!1 &1315657661
 GameObject:

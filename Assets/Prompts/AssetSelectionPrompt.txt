@@ -1,9 +1,10 @@
-For each of the following zones in a {Place}, each zone has a list of objects and for each object given a list of different assets for it, select the best asset for each of the objects from the list of assets given with their name, tags, and categories. Note that it is important for the selected asset to match the context of its zone, and return only the leaf zones.
-Here are the Objects assets in the Zones:
+okay so like there's a thing called {Place} and inside that there's these area parts, like zones or something, and for each zone it has some stuff (objects or whatever), and then each of those has a pile of assets with names and some tags and like... categories? anyway, just pick what you think is the coolest or best or whatever for the stuff in each zone thing, but also only the tiny ones at the bottom (you know the zones that don’t go anywhere else), and do your best to make it “fit” the vibe or whatever of the zone.
+
+Here’s like all the stuff:
 
 {Data}
 
-Respond in a json format like the following
+Send back your answer using the thing like this:
 {
   "Zone A": {
     "Object X": "asset 3",

@@ -590,7 +590,7 @@ public class SceneCreater : MonoBehaviour
         }
         string zonesAssetsString = GeneralScript.DictToString(zonesAssetsPrompt);
 
-        string assetSelectionPrompt = ReadTextFile(Application.dataPath + "/Prompts/ConnectionsPrompt.txt");
+        string assetSelectionPrompt = ReadTextFile(Application.dataPath + "/Prompts/AssetSelectionPrompt.txt");
 
         assetSelectionPrompt = assetSelectionPrompt.Replace("{Place}", root.name);
         assetSelectionPrompt = assetSelectionPrompt.Replace("{Data}", zonesAssetsString); 
@@ -686,8 +686,15 @@ public class SceneCreater : MonoBehaviour
                 $"Left: {left}\n" +
                 $"Right: {right}";
             string objects = string.Join("\n", leafNode.assets.Select(pair => $"{pair.Key}: ({leafNode.objects[pair.Key].x} * {leafNode.objects[pair.Key].z})"));
-            string prompt = $"You are in a ({zoneSize.x} width * {zoneSize.z} length) {leafNode.name} in a {root.name}'s 2D space, you are moving in objects to the {leafNode.name} and making them fit into the context of the area. Organize the following objects in it given their sizes (width, length), and the layout should match a realistic layout. You can repeat the same object multiple times, set which direction the object should face to make the layout look realistic, it can be facing south, east, west, or north. You can set objects position any where inside the zone to make them fit into the context, state the exact object name you are referencing, and ensure the objects are facing a direction which makes them fit in the context, the position of the objects is to be calculated from the center of the zone. The Objects should not overlap or go outside the zone boundaries. The objects are:\r\n{objects}\r\n\r\nHere is some additional information about the room edges:\r\n{roomEdges}\r\n\r\nRespond in a json format like the following example with no text before or after:\r\n{{\r\n    \"object1\": {{\r\n        \"position\": (x, y),\r\n        \"direction\": \"south\"\r\n    }},\r\n    \"object1\": {{\r\n        \"position\": (x, y),\r\n        \"direction\": \"north\"\r\n    }},\r\n    \"object2\": {{\r\n        \"position\": (x, y),\r\n        \"direction\": \"east\"\r\n    }},\r\n    \"object2\": {{\r\n        \"position\": (x, y),\r\n        \"direction\": \"west\"\r\n    }}\r\n}}";
-            Debug.Log(prompt);
+
+            string prompt = ReadTextFile(Application.dataPath + "/Prompts/ObjectPlacement.txt");
+            prompt = prompt.Replace("{Dimensions}", $"({zoneSize.x} width * {zoneSize.z} length)");
+            prompt = prompt.Replace("{SubZone}", $"{leafNode.name}");
+            prompt = prompt.Replace("{Place}", $"{root.name}");
+            prompt = prompt.Replace("{Objects}", $"{objects}");
+            prompt = prompt.Replace("{ZoneEdges}", $"{roomEdges}");
+            Debug.Log("Object Placement Prompt: " + prompt);
+
             string response = await geminiAPI.SendPrompt(prompt);
             Debug.Log(response);
             Dictionary<string, object> responseDict = GeneralScript.StringToDict(response);

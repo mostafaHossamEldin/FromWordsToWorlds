@@ -1,0 +1,74 @@
+fileFormatVersion: 2
+guid: 624556e9ae449c044804b5224670261e
+labels:
+- author:kalai1997
+- license:CC Attribution-NonCommercial
+- name:Cardiovascular Stent
+- size:(12.8,4.400001,4.400001)
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 804e1ce4c496647cfa3f1a1134187c71, type: 3}
+  _removeEmptyRootObjects: 1
+  _scaleFactor: 1
+  _deduplicateResources: 0
+  _maximumLod: 300
+  _readWriteEnabled: 1
+  _generateColliders: 0
+  _swapUvs: 0
+  _generateLightmapUVs: 0
+  _importBlendShapeNames: 1
+  _blendShapeFrameWeight:
+    _option: 0
+    _multiplier: 1
+  _importNormals: 0
+  _importTangents: 0
+  _importCamera: 2
+  _importAnimations: 2
+  _mecanimHumanoidFlip: 0
+  _addAnimatorComponent: 0
+  _animationLoopTime: 1
+  _animationLoopPose: 0
+  _importMaterials: 1
+  _enableGpuInstancing: 0
+  _texturesReadWriteEnabled: 1
+  _generateMipMaps: 1
+  _useSceneNameIdentifier: 1
+  _textureCompression: -50
+  _gltfAsset: '<b>Generator: </b>Sketchfab-15.55.0
+
+    <b>Version: </b>2.0
+
+    
+
+    <b>Extras:
+    </b>
+
+    "author": "Breeze of art (https://sketchfab.com/kalai1997)"
+
+    "license":
+    "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)"
+
+    "source":
+    "https://sketchfab.com/3d-models/cardiovascular-stent-971172f06a604f89b8370adaf92cb36e"
+
+    "title":
+    "Cardiovascular Stent"
+
+'
+  optimizeGameObjects: 0
+  materials: []
+  textures: []
+  hasSceneData: 1
+  hasAnimationData: 0
+  hasMaterialData: 1
+  hasTextureData: 0
+  animations: []
+  _extensions: []
+  _textures: []
+  _mainAssetIdentifier: scenes/Sketchfab_Scene
+  _importPlugins: []
