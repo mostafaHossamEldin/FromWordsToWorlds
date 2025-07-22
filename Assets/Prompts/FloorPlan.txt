@@ -3,27 +3,3 @@ yo so for this one thing called "{Place}" or whatever, can u tell me what stuff 
 also make sure each small zone (leafs? leefs? the bottom ones) says how big it is like in square meters. and say how tall the walls are (only if they have walls tho), and where they are inside their parent part like “left” or “up” or “middle or center or whatever” – but only use right, left, up, down, or center or things will get weird.
 
 for those bottom leaf ones give some objects (not a lot just the ones u would put on the floor if u were gonna build the zone from scratch) and name them with long names like “wooden table with drawer from school” and start with the object name and never make them plural. then tell me the sizes of each object in meters like [w, h, l] (like width and tallness and deepness). also for the tiny zones say if the floor is like stone or dirt or tile or whatever, and if there’s walls, what texture they are (like brick or goo idk).
-
-make sure the output looks like this because JSON is picky lol:
-
-{
-  "Some Big Zone": {
-    "Group Thing 1": {
-      "Tiny Area 1": {
-        "translatedName": "in their language probably",
-        "size": 10,
-        "type": "closed or open???",
-        "side": "left",
-        "height": 3,
-        "walls": "smooth marble i guess",
-        "floor": "fake grass",
-        "objects": {
-          "desk": [1, 2, 3],
-          "another thing": [3, 4, 5]
-        }
-      },
-      "side": "center"
-    }
-  }
-}
-put the real stuff in where needed but keep the format like that or the parser will cry. ok thanks.

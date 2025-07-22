@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{6CED6E08-CDCA-C299-D976-1C36BDF8AA79}|Assembly-CSharp.csproj|solutionrelative:assets\\prompts\\floorplan.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CED6E08-CDCA-C299-D976-1C36BDF8AA79}|Assembly-CSharp.csproj|c:\\users\\most2\\desktop\\prompt engineering workshop\\prompt engineering workshop\\assets\\scripts\\scenecreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6CED6E08-CDCA-C299-D976-1C36BDF8AA79}|Assembly-CSharp.csproj|C:\\Users\\most2\\Desktop\\Prompt Engineering Workshop\\Prompt Engineering Workshop\\assets\\scripts\\scenecreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CED6E08-CDCA-C299-D976-1C36BDF8AA79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenecreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -70,8 +70,7 @@
               "RelativeToolTip": "Assets\\Scripts\\SceneCreater.cs",
               "ViewState": "AgIAAKkCAAAAAAAAAAAuwLECAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T17:44:41.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T17:44:41.87Z"
             },
             {
               "$type": "Document",
@@ -81,7 +80,7 @@
               "RelativeDocumentMoniker": "Assets\\Prompts\\ObjectPlacement.txt",
               "ToolTip": "C:\\Users\\most2\\Desktop\\Prompt Engineering Workshop\\Prompt Engineering Workshop\\Assets\\Prompts\\ObjectPlacement.txt",
               "RelativeToolTip": "Assets\\Prompts\\ObjectPlacement.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-07-22T19:34:44.989Z",
               "EditorCaption": ""
@@ -96,8 +95,7 @@
               "RelativeToolTip": "Assets\\Prompts\\FloorPlan.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-07-22T18:56:01.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T18:56:01.857Z"
             },
             {
               "$type": "Document",

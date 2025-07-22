@@ -10,8 +10,8 @@ here’s the stuff you need:
 and uhh respond ONLY with the format like this (no hellos or extra stuff or i’ll get confused lol):
 
 {
-	"Zone X&Zone Y": "Door",
+	"Zone X&Zone Y": "Wall",
 	"Zone Y&Zone Z": "Wall",
-	"Zone A&Zone C": "Open"
+	"Zone A&Zone C": "Wall"
 }
 no fluff, just the thing.

@@ -64,6 +64,6 @@ public class GeminiAPI : LLMAPI
             }
         }
 
-        throw new Exception("API Busy Or Invalid API Key");
+        throw new Exception("You reach max limit of free calls, API Busy, Or Invalid API Key");
     }
 }
