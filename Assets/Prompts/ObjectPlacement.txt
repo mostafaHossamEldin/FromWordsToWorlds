@@ -1,26 +1,27 @@
-You are in a {Dimensions} {SubZone} in a {Place}'s 2D space, you are moving in objects to the {SubZone} and making them fit into the context of the area. Organize the following objects in it given their sizes (width, length), and the layout should match a realistic layout. You can repeat the same object multiple times, set which direction the object should face to make the layout look realistic, it can be facing south, east, west, or north. You can set objects position any where inside the zone to make them fit into the context, state the exact object name you are referencing, and ensure the objects are facing a direction which makes them fit in the context, the position of the objects is to be calculated from the center of the zone. The Objects should not overlap or go outside the zone boundaries.
-The objects are:
+U are in some kinda {Dimensions} {SubZone} thing in a {Place}'s 2-d flat space zone thing, you goin and movin stuff into the {SubZone} and doin that thing where u try 2 make it fit in the vibe of that space maybe. Do the stuff with these things by putting them in order or whatever based on how big they are (like how wide n long), also make it like it looks like a thing that makes sense if someone looked at it and said “yeah that’s there”. You can totally do copies of things too many times if u want, and they can be lookin in the down, up, side left, or other side. Stick things somewhere in the place just so they kinda go where it seem like they belong, say the name of the thing u talkin about, and like make sure they face the way that kinda makes sense or not weird, and when u put em down try not to squish other things or push stuff outside the edge zone or boundary space things. Starting point for dropping things is middle of the thingy.
+
+The things are:
 {Objects}
 
-Here is some additional information about the room edges:
+and here’s more room stuff:
 {ZoneEdges}
 
-Respond in a json format like the following example with no text before or after:
+give back only json no blah blah talk, here the style to copy:
 {
-    "object1": {
-        "position": (x, y),
-        "direction": "south"
-    },
-    "object1": {
-        "position": (x, y),
-        "direction": "north"
-    },
-    "object2": {
-        "position": (x, y),
-        "direction": "east"
-    },
-    "object2": {
-        "position": (x, y),
-        "direction": "west"
-    }
+	"object1": {
+		"position": (x, y),
+		"direction": "south"
+	},
+	"object1": {
+		"position": (x, y),
+		"direction": "north"
+	},
+	"object2": {
+		"position": (x, y),
+		"direction": "east"
+	},
+	"object2": {
+		"position": (x, y),
+		"direction": "west"
+	}
 }

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\most2\\Desktop\\Prompt Engineering Workshop\\Prompt Engineering Workshop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6CED6E08-CDCA-C299-D976-1C36BDF8AA79}|Assembly-CSharp.csproj|c:\\users\\most2\\desktop\\prompt engineering workshop\\prompt engineering workshop\\assets\\prompts\\objectplacement.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6CED6E08-CDCA-C299-D976-1C36BDF8AA79}|Assembly-CSharp.csproj|solutionrelative:assets\\prompts\\objectplacement.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CED6E08-CDCA-C299-D976-1C36BDF8AA79}|Assembly-CSharp.csproj|C:\\Users\\most2\\Desktop\\Prompt Engineering Workshop\\Prompt Engineering Workshop\\assets\\prompts\\floorplan.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6CED6E08-CDCA-C299-D976-1C36BDF8AA79}|Assembly-CSharp.csproj|solutionrelative:assets\\prompts\\floorplan.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6CED6E08-CDCA-C299-D976-1C36BDF8AA79}|Assembly-CSharp.csproj|c:\\users\\most2\\desktop\\prompt engineering workshop\\prompt engineering workshop\\assets\\scripts\\scenecreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CED6E08-CDCA-C299-D976-1C36BDF8AA79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenecreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +19,12 @@
       "RelativeMoniker": "D:0:0:{6CED6E08-CDCA-C299-D976-1C36BDF8AA79}|Assembly-CSharp.csproj|solutionrelative:assets\\prompts\\connectionsprompt.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CED6E08-CDCA-C299-D976-1C36BDF8AA79}|Assembly-CSharp.csproj|C:\\Users\\most2\\Desktop\\Prompt Engineering Workshop\\Prompt Engineering Workshop\\assets\\prompts\\floorplan.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6CED6E08-CDCA-C299-D976-1C36BDF8AA79}|Assembly-CSharp.csproj|solutionrelative:assets\\prompts\\floorplan.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6CED6E08-CDCA-C299-D976-1C36BDF8AA79}|Assembly-CSharp.csproj|C:\\Users\\most2\\Desktop\\Prompt Engineering Workshop\\Prompt Engineering Workshop\\assets\\prompts\\assetselectionprompt.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{6CED6E08-CDCA-C299-D976-1C36BDF8AA79}|Assembly-CSharp.csproj|solutionrelative:assets\\prompts\\assetselectionprompt.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CED6E08-CDCA-C299-D976-1C36BDF8AA79}|Assembly-CSharp.csproj|C:\\Users\\most2\\Desktop\\Prompt Engineering Workshop\\Prompt Engineering Workshop\\assets\\scripts\\zonenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CED6E08-CDCA-C299-D976-1C36BDF8AA79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zonenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CED6E08-CDCA-C299-D976-1C36BDF8AA79}|Assembly-CSharp.csproj|C:\\Users\\most2\\Desktop\\Prompt Engineering Workshop\\Prompt Engineering Workshop\\assets\\scripts\\geminiapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CED6E08-CDCA-C299-D976-1C36BDF8AA79}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\geminiapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CED6E08-CDCA-C299-D976-1C36BDF8AA79}|Assembly-CSharp.csproj|C:\\Users\\most2\\Desktop\\Prompt Engineering Workshop\\Prompt Engineering Workshop\\assets\\scripts\\textureselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,18 +63,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "SceneCreater.cs",
+              "DocumentMoniker": "C:\\Users\\most2\\Desktop\\Prompt Engineering Workshop\\Prompt Engineering Workshop\\Assets\\Scripts\\SceneCreater.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneCreater.cs",
+              "ToolTip": "C:\\Users\\most2\\Desktop\\Prompt Engineering Workshop\\Prompt Engineering Workshop\\Assets\\Scripts\\SceneCreater.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneCreater.cs",
+              "ViewState": "AgIAAKkCAAAAAAAAAAAuwLECAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:44:41.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ObjectPlacement.txt",
+              "DocumentMoniker": "C:\\Users\\most2\\Desktop\\Prompt Engineering Workshop\\Prompt Engineering Workshop\\Assets\\Prompts\\ObjectPlacement.txt",
+              "RelativeDocumentMoniker": "Assets\\Prompts\\ObjectPlacement.txt",
+              "ToolTip": "C:\\Users\\most2\\Desktop\\Prompt Engineering Workshop\\Prompt Engineering Workshop\\Assets\\Prompts\\ObjectPlacement.txt",
+              "RelativeToolTip": "Assets\\Prompts\\ObjectPlacement.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-07-22T19:34:44.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FloorPlan.txt",
               "DocumentMoniker": "C:\\Users\\most2\\Desktop\\Prompt Engineering Workshop\\Prompt Engineering Workshop\\Assets\\Prompts\\FloorPlan.txt",
               "RelativeDocumentMoniker": "Assets\\Prompts\\FloorPlan.txt",
               "ToolTip": "C:\\Users\\most2\\Desktop\\Prompt Engineering Workshop\\Prompt Engineering Workshop\\Assets\\Prompts\\FloorPlan.txt",
               "RelativeToolTip": "Assets\\Prompts\\FloorPlan.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-07-22T18:56:01.857Z"
+              "WhenOpened": "2025-07-22T18:56:01.857Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AssetSelectionPrompt.txt",
               "DocumentMoniker": "C:\\Users\\most2\\Desktop\\Prompt Engineering Workshop\\Prompt Engineering Workshop\\Assets\\Prompts\\AssetSelectionPrompt.txt",
               "RelativeDocumentMoniker": "Assets\\Prompts\\AssetSelectionPrompt.txt",
@@ -86,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ConnectionsPrompt.txt",
               "DocumentMoniker": "C:\\Users\\most2\\Desktop\\Prompt Engineering Workshop\\Prompt Engineering Workshop\\Assets\\Prompts\\ConnectionsPrompt.txt",
               "RelativeDocumentMoniker": "Assets\\Prompts\\ConnectionsPrompt.txt",
@@ -98,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ZoneNode.cs",
               "DocumentMoniker": "C:\\Users\\most2\\Desktop\\Prompt Engineering Workshop\\Prompt Engineering Workshop\\Assets\\Scripts\\ZoneNode.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ZoneNode.cs",
@@ -143,31 +170,6 @@
               "ViewState": "AgIAAGgAAAAAAAAAAAAtwHIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T17:48:47.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GeminiAPI.cs",
-              "DocumentMoniker": "C:\\Users\\most2\\Desktop\\Prompt Engineering Workshop\\Prompt Engineering Workshop\\Assets\\Scripts\\GeminiAPI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GeminiAPI.cs",
-              "ToolTip": "C:\\Users\\most2\\Desktop\\Prompt Engineering Workshop\\Prompt Engineering Workshop\\Assets\\Scripts\\GeminiAPI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GeminiAPI.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAlwEIAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T17:47:01.457Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SceneCreater.cs",
-              "DocumentMoniker": "C:\\Users\\most2\\Desktop\\Prompt Engineering Workshop\\Prompt Engineering Workshop\\Assets\\Scripts\\SceneCreater.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneCreater.cs",
-              "ToolTip": "C:\\Users\\most2\\Desktop\\Prompt Engineering Workshop\\Prompt Engineering Workshop\\Assets\\Scripts\\SceneCreater.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SceneCreater.cs",
-              "ViewState": "AgIAAJwCAAAAAAAAAAAwwLECAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T17:44:41.87Z",
-              "EditorCaption": ""
             }
           ]
         },
