@@ -1,0 +1,18 @@
+For each of the following zones in a {Place}, each zone has a list of objects and for each object given a list of different assets for it, select the best asset for each of the objects from the list of assets given with their name, tags, and categories. Note that it is important for the selected asset to match the context of its zone, and return only the leaf zones.
+Here are the Objects assets in the Zones:
+
+{Data}
+
+Respond in a json format like the following
+{
+  "Zone A": {
+    "Object X": "asset 3",
+    "Object Y": "asset 1",
+    "Object Y": "asset 2"
+  },
+  "Zone B": {
+    "Object X": "asset 6",
+    "Object Y": "asset 4",
+    "Object Y": "asset 1"
+  }
+}

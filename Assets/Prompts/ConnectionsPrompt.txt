@@ -1,0 +1,10 @@
+In a "{Place}", given each of its zones with their size in square meters, and given each ones adjacent zones, respond with the most appropriate connection type between each zone and its adjacent zone, it should match a realistic layout, the main factors for your selections are the whole area context, zones functionallity, accessibility, and sizes. The Connection types are Wall, Door, or Open. Note that each zone SHOULD be accessable through at least one of its connections, and all zones have to be connected together leaving no cluster of zones unaccessable, and do NOT repeat the same connection between a pair twice.
+
+Here are the Zones in the {Place} and their neighbors: {Data}
+
+Respond only in a json format with no text before or after, like the following:
+{
+	"Zone A&Zone B": "Wall",
+	"Zone A&Zone B": "Open",
+	"Zone A&Zone B": "Door"
+}

@@ -1,0 +1,98 @@
+For this context "{Place}", give me its subareas NAMES (and each ones subareas) that form it up in a json format. Give the result in a tree form, without mentioning very specific objects, just the zones names. Give the size of each leaf zone of the tree in square meters, and give the wall height in meters for each leaf, and give the position of each subzone relevant to its zone weather it is "right", "left", "up", "down", or "center". And for each leaf give its objects extended name that could build it up (that can be placed on the floor), the name has to be very descriptive and just one long phrase starting with the object name, the object name must not be in plural, and give the reference dimensions for each object in meters as [width, height, length]. And for each leaf give the walls texture (if closed), and the floor texture.
+
+Example Output:
+{
+  "Zone Name": {
+    "Subzone Group 1": {
+      "Subzone A": {
+        "translatedName": "Translated subzone name",
+        "size": 20,
+        "type": "open",
+        "side": "left",
+        "height": 5,
+        "floor": "concrete",
+        "objects": {
+          "object 1": [1, 2, 3],
+          "object 2": [4, 5, 6],
+          "object 3": [7, 8, 9],
+          "object 4": [10, 11, 12]
+        }
+      },
+      "Subzone B": {
+        "languageName": "Translated subzone name",
+        "size": 15,
+        "type": "closed",
+        "side": "right",
+        "height": 5,
+        "walls": "marple",
+        "floor": "rock",
+        "objects": {
+          "object 1": [1, 1, 1],
+          "object 2": [2, 2, 2],
+          "object 3": [3, 3, 3]
+        }
+      },
+      "side": "center"
+    },
+    "Subzone Group 2": {
+      "Subzone C": {
+        "languageName": "Translated subzone name",
+        "size": 30,
+        "type": "open",
+        "side": "up",
+        "height": 6,
+        "walls": "paving stones",
+        "objects": {
+          "object 1": [5, 5, 5],
+          "object 2": [6, 6, 6],
+          "object 3": [7, 7, 7]
+        }
+      },
+      "Subzone D": {
+        "languageName": "Translated subzone name",
+        "size": 50,
+        "type": "closed",
+        "side": "down",
+        "height": 6,
+        "walls": "bricks",
+        "floor": "asphalt",
+        "objects": {
+          "object 1": [8, 8, 8],
+          "object 2": [9, 9, 9],
+          "object 3": [10, 10, 10]
+        }
+      },
+      "Subzone E": {
+        "languageName": "Translated subzone name",
+        "size": 40,
+        "type": "open",
+        "side": "left",
+        "height": 6,
+        "floor": "asphalt",
+        "objects": {
+          "object 1": [11, 11, 11],
+          "object 2": [12, 12, 12],
+          "object 3": [13, 13, 13]
+        }
+      },
+      "side": "right"
+    },
+    "Subzone Group 3": {
+      "Subzone F": {
+        "languageName": "Translated subzone name",
+        "size": 25,
+        "type": "closed",
+        "side": "down",
+        "height": 4,
+        "walls": "bricks",
+        "floor": "asphalt",
+        "objects": {
+          "object 1": [14, 14, 14],
+          "object 2": [15, 15, 15],
+          "object 3": [16, 16, 16]
+        }
+      },
+      "side": "up"
+    }
+  }
+}
