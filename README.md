@@ -24,7 +24,7 @@ Open the project from Unity Hub, it will take sometime
 
 ## Usage
 #### Opening Main file:
-* Through the asset manager go to Assets -> SceneGeneration
+* Through the asset manager go to Assets -> Scripts
 * Open SceneCreator.cs using any IDE
 
 #### Setting the inputs for the LLM:
@@ -35,6 +35,11 @@ Open the project from Unity Hub, it will take sometime
 #### Generate Scene.
 * Go back to Unity
 * Run the application
+
+#### Modifying Prompts
+* Go to Prompts folder
+* Open any prompt you want to edit
+* Note the way variables are used, for example {Place} will get replaced before being sent to the LLM with the place entered in the SceneCreator file
 
 ## Modules
 1.  **Area Module**:
@@ -86,19 +91,19 @@ Open the project from Unity Hub, it will take sometime
 
 ## Asset Manager Structure
 -  `Assets/PlayerObject/`: Contains the script for the mouse and keyboard player code.
--  `Assets/SceneGeneration/`: Contains the whole framework code with a .asmdef for dependencies managing.
--  `Assets/SceneGeneration/SketchFabModels/`: Contains the previously downloaded models from Sketchfab.
--  `Assets/SceneGeneration/Texture/`: Contains the previously downloaded textures from AmbientCG along with the generated materials.
--  `Assets/SceneGeneration/Texture/ambientCG_Textures.csv`: The Textures datasset used for the Floor and wall materials generation.
--  `Assets/SceneGeneration/Texture/ZoneNode.cs`: The main and DataType that represents almost all the scene.
--  `Assets/SceneGeneration/Texture/Connection.cs`: The datatype for the connections between zones.
--  `Assets/SceneGeneration/Texture/LLMAPI.cs`: An abstract datatype for different LLMs APIs.
--  `Assets/SceneGeneration/Texture/GeminiAPI.cs`: The main LLM API class.
--  `Assets/SceneGeneration/Texture/GeneralScript.cs`: The general functions used across all the framework's scripts.
--  `Assets/SceneGeneration/Texture/ModelRetriever.cs`: An abstract datatype for the assets retrieving process.
--  `Assets/SceneGeneration/Texture/SketchfabRetrivier.cs`: The main used assets retrieving class in the framework.
--  `Assets/SceneGeneration/Texture/SceneCreater.cs`: The main script for the whole process generation.
--  `Assets/SceneGeneration/Texture/TextureSelector.cs`: The textures managing class.
+-  `Assets/Scripts/`: Contains the whole framework code with a .asmdef for dependencies managing.
+-  `Assets/Scripts/SketchFabModels/`: Contains the previously downloaded models from Sketchfab.
+-  `Assets/Scripts/Texture/`: Contains the previously downloaded textures from AmbientCG along with the generated materials.
+-  `Assets/Scripts/Texture/ambientCG_Textures.csv`: The Textures datasset used for the Floor and wall materials generation.
+-  `Assets/Scripts/Texture/ZoneNode.cs`: The main and DataType that represents almost all the scene.
+-  `Assets/Scripts/Texture/Connection.cs`: The datatype for the connections between zones.
+-  `Assets/Scripts/Texture/LLMAPI.cs`: An abstract datatype for different LLMs APIs.
+-  `Assets/Scripts/Texture/GeminiAPI.cs`: The main LLM API class.
+-  `Assets/Scripts/Texture/GeneralScript.cs`: The general functions used across all the framework's scripts.
+-  `Assets/Scripts/Texture/ModelRetriever.cs`: An abstract datatype for the assets retrieving process.
+-  `Assets/Scripts/Texture/SketchfabRetrivier.cs`: The main used assets retrieving class in the framework.
+-  `Assets/Scripts/Texture/SceneCreater.cs`: The main script for the whole process generation.
+-  `Assets/Scripts/Texture/TextureSelector.cs`: The textures managing class.
 -  `Assets/Scripts/`: Implemented but unused scripts due to the time constraints and their unrelevancy to the Bachelor Thesis Aim.
 
 ## Notes
